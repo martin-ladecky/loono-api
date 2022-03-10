@@ -1,8 +1,6 @@
 name: 'Terraform Apply on push'
 on:
   push:
-    branches:
-      - main
 #    paths:
 #      - 'infrastructure/aws/**'
 env:
