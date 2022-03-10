@@ -1,6 +1,8 @@
 name: 'Terraform Apply on push'
 on:
   push:
+    paths:
+      - 'infrastructure/aws/**'
   pull_request:
 env:
   tf_version: '1.1.6'
