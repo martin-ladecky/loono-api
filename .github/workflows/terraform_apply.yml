@@ -46,6 +46,6 @@ jobs:
         continue-on-error: true
 
       - name: 'Terraform Apply'
-        id: plan
+        id: apply
         run: terraform apply
         continue-on-error: true
